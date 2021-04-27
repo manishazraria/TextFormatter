@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textutils</title>
+</head>
+
+<body>
+    <h1>Welcome To The Text Analyser. Enter Yor Text Below</h1>
+    <!-- {{name}} is from {{place}} here we are using variable coming from render -->
+    <form action="/analyse" method='get'>
+        <textarea name='text' style='margin: 0px; width: 1199px; height: 188px;'></textarea><br>
+        <input type="checkbox" name="removepunc">Remove Punctuation<br>
+        <input type="checkbox" name="fullcaps">Upper Case<br>
+        <input type="checkbox" name="newlineremover">Remove New Line<br>
+        <input type="checkbox" name="extraspaceremover">Remove Extra Space<br>
+        <input type="checkbox" name="charcounter">Count Characters<br>
+        <button type="submit">Analyse Text</button>
+    </form>
+</body>
+
+</html>
